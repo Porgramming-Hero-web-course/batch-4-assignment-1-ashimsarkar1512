@@ -1,3 +1,5 @@
+{
+//
 function sumArray(numbers:number[]):number{
             let sum=0;
             for(const num of numbers){
@@ -10,3 +12,5 @@ function sumArray(numbers:number[]):number{
 const result=sumArray([1,2,3,4,5])
 
 console.log(result);
+//
+}

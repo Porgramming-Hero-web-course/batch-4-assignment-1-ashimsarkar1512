@@ -1,3 +1,6 @@
+{
+ //           
+
 interface Profile{
             name:string;
             age:number;
@@ -10,3 +13,7 @@ function updateProfile(profile:Profile, update:Partial<Profile>):Profile{
 
 const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
 console.log(updateProfile(myProfile, { age: 26 }));
+
+//
+
+}

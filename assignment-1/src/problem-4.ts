@@ -1,3 +1,6 @@
+{
+ //           
+
 type Circle={
             shape:"circle";
             radius:number;
@@ -32,3 +35,7 @@ const rectangleArea = calculateShapeArea({
 });
 
 console.log(rectangleArea);
+
+//
+
+}

@@ -1,3 +1,6 @@
+{
+ //           
+
 function countWordOccurrences(sentence:string,word:string):number{
             const lowerCaseSentance=sentence.toLowerCase();
             const lowerCaseWord=word.toLowerCase();
@@ -8,3 +11,6 @@ function countWordOccurrences(sentence:string,word:string):number{
 const result3=countWordOccurrences("I love typescript", "typescript");
 
 console.log(result3);
+
+//
+}
